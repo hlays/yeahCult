@@ -1,9 +1,9 @@
-function flip() {
+const flip = () => {
   $('.card').toggleClass('flipped');
 }
 
 
-function initMap() {
+const initMap = () => {
   let map = new google.maps.Map(document.getElementById('map'), {
     center: {
       lat: -23.5629,
@@ -25,7 +25,7 @@ function initMap() {
       map: map
     });
 
-    homeMarker.addListener('click', function () {
+    homeMarker.addListener('click', () => {
       window.location = `wiki.html?placeName=${homeMarker.title}`;
     });
   }

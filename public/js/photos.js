@@ -6,7 +6,7 @@ const photos = {
   'Museu_de_Arte_de_Sao_Paulo': ['../imgs/masp.jpg', '../imgs/masp-assis-chateaubriand.jpg', '../imgs/masp-pietro-bardi.jpg', '../imgs/masp-aerea.jpg']
 };
 
-function showPhotos(place) {
+const showPhotos = (place) => {
   gallery.innerHTML = `
       <div id='carouselExampleControls' class='carousel slide' data-ride='carousel'>
       <div class='carousel-inner'>

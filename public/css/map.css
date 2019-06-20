@@ -158,11 +158,6 @@ a {
   left: 2vw;
 }
 
-.btn-flip {
-  bottom: 5vh;
-  left: 3vw;
-}
-
 .map {
   height: 88vh;
   position: absolute;
@@ -227,8 +222,6 @@ a {
   .nav-button {
     background: transparent;
     border: none;
-    /* margin-top: 14vw;
-    margin-right: 5vh; */
   }
   .navbar-nav a {
     color: #ffffff;

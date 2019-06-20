@@ -10,22 +10,22 @@ const casper = document.getElementById('casper');
 const anchieta = document.getElementById('anchieta');
 
 
-masp.addEventListener('click', function () {
+masp.addEventListener('click', () => {
   window.location = `wiki.html?placeName=${'Museu_de_Arte_de_São_Paulo'}`;
 });
 
-trianon.addEventListener('click', function () {
+trianon.addEventListener('click', () => {
   window.location = `wiki.html?placeName=${'Parque_Trianon'}`;
 });
 
-cj.addEventListener('click', function () {
+cj.addEventListener('click', () => {
   window.location = `wiki.html?placeName=${'Conjunto_Nacional'}`;
 });
 
-casper.addEventListener('click', function () {
+casper.addEventListener('click', () => {
   window.location = `wiki.html?placeName=${'Fundação_Cásper_Líbero'}`;
 });
 
-anchieta.addEventListener('click', function () {
+anchieta.addEventListener('click', () => {
   window.location = `wiki.html?placeName=${'Condomínio_Edifício_Anchieta'}`;
 });

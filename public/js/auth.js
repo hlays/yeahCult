@@ -1,9 +1,8 @@
-$(document).ready(function () {
-  $('#btn-create-user').click(function () {
+$(document).ready(() => {
+  $('#btn-create-user').click(() => {
     event.preventDefault();
     const signupEmail = $('#signup-email').val();
     const signupPassword = $('#signup-password').val();
-    // const userName = $('#input-name').val();
 
     firebase
       .auth()
@@ -11,15 +10,14 @@ $(document).ready(function () {
       .then(() => {
         const user = firebase.auth().currentUser;
         user.updateProfile({
-          // displayName: userName,
           photoURL: '',
         })
-          .then(() => window.location.href = "../html/map.html");
+          .then(() => window.location.href = '../html/map.html');
       })
       .catch(error => $('#error-msg').text(error.message));
   });
 
-  $('#btn-login').click(function () {
+  $('#btn-login').click(() => {
     event.preventDefault();
     const email = $('#input-email').val();
     const password = $('#input-password').val();
@@ -27,23 +25,23 @@ $(document).ready(function () {
     firebase
       .auth()
       .signInWithEmailAndPassword(email, password)
-      .then(() => window.location.href = "../html/map.html")
+      .then(() => window.location.href = '../html/map.html')
       .catch(error => $('#error-msg').text(error.message));
   });
 
-  $('#google-btn').click(function () {
+  $('#google-btn').click(() => {
     const provider = new firebase.auth.GoogleAuthProvider();
     firebase
       .auth()
       .signInWithPopup(provider)
-      .then(() => window.location.href = "../html/map.html")
+      .then(() => window.location.href = '../html/map.html')
       .catch(error => $('#error-msg').text(error.message));
   });
 
-  $('#logout-btn').click(function () {
+  $('#logout-btn').click(() => {
     firebase
       .auth()
       .signOut()
-      .then(() => window.location.href = "index.html");
+      .then(() => window.location.href = 'index.html');
   });
 });

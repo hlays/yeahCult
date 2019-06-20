@@ -1,7 +1,7 @@
 const voiceUrl = 'https://api.voicerss.org/';
 const apiKey = '6fff046e52fd4f1d8627cf52c53e2802';
 
-function fetchTTS(text) {
+const fetchTTS = (text) => {
   fetch(`${voiceUrl}?key=${apiKey}&hl=pt-BR&src=${text}&f=48khz_16bit_stereo`)
     .then(resp => {
       player.preload = 'auto';

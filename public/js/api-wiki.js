@@ -39,9 +39,9 @@ $('#btnEnglish').on('click', () => {
       const moreUrl = resp.content_urls.mobile.page;
 
       summary.innerHTML = `
-    <h1>${wikiTitle}</h1>
-    <p id='text' class='text'>${wikiSummary}</p>
-    <a class='read-more' href='${moreUrl}' target='_blank'>Read more...</a>
+        <h1>${wikiTitle}</h1>
+        <p id='text' class='text'>${wikiSummary}</p>
+        <a class='read-more' href='${moreUrl}' target='_blank'>Read more...</a>
     `;
 
       fetchTTS(wikiSummary);
