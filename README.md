@@ -3,7 +3,7 @@
 Descubra o mundo ao seu redor!
 
 ## Introdução
-Passmos tanto tempo nas tarefas rotineiras, em filas ou na condução, por exemplo, e quase não temos tempo para consumir cultura.
+Passamos tanto tempo nas tarefas rotineiras, em filas ou na condução, por exemplo, e quase não temos tempo para consumir cultura.
 
 Então pensamos, tem MUITA coisa interessante espalhada por aí ao nosso redor, nós é que não nos damos conta, porque estamos com os olhos viciados pela rotina.
 
