@@ -16,7 +16,10 @@ Nessa primeira versão, trazemos conteúdo da Wikipedia, com possibilidade de á
 Nas versões futuras, nosso desejo é promover  mais a inclusão, com audios ainda melhores com narração humana, textos inseridos pela comunidade, tornar o aplicativo 'vivo'. 
 Inclusão de rotas, para realizar um passeio guiado, etc.
 
-E falar sobre a monetização, através do apoio de empresas públicas e privadas, planos de incentivo a cultura, e crowfunding, por quê não?
+## Monetização
+* planos de incentivo a cultura
+* apoio de empresas públicas e privadas
+* crowfunding
 
 ## Canvas
 [Link Canvas](https://canvanizer.com/canvas/wfIUYRhiePBAE)
